@@ -3,7 +3,7 @@ import SearchOrder from "../features/order/SearchOrder";
 
 function Header() {
   return (
-    <header>
+    <header className="bg-yellow-300">
       <Link to="/">Fast React Pizza Co.</Link>
       <SearchOrder />
       <p> Jonas</p>
